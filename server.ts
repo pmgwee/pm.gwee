@@ -39,7 +39,7 @@ export function app(): express.Express {
       .then((html) => res.send(html))
       .catch((err) => next(err));
   });
-
+  
   return server;
 }
 
